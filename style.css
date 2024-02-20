@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+/* font-family: "Cardo", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: "Lato", sans-serif; */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #e9e7e7;
+    color: #232323;
+    overflow: hidden;
+}
+
+.container
+{
+    /* width: 1166px; */
+    padding: 0 100px; 
+    margin: 0 auto;
+}
+
+.brd
+{
+    border: 1px solid red;
+}
+
+.row
+{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.fxc
+{
+    flex-direction: column;
+}
+
+.jct
+{
+    justify-content: space-between;
+}
+
+.col-30
+{
+    width: 29%;
+}
+
+.col-60
+{
+    width: 60%;
+}
+
+
+header
+{
+    padding: 50px 0;
+}
+
+.nav-bar
+{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: "Lato", sans-serif; 
+    font-weight: 400;
+}
+
+.nav-bar li
+{
+    display: inline;
+    padding: 0 35px;
+}
+
+.nav-bar li:nth-child(1)
+{
+    padding-left: 0;
+    font-weight: 900;
+}
+
+.nav-bar li a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact
+{
+    margin: -6px 0 0 0;
+}
+
+.contactUs
+{
+    padding: 12px 40px;
+    background-color: transparent;
+    border: 2px solid #232323;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sec-one
+{
+    padding: 50px 0;
+}
+
+.sec-one-main
+{
+    position: relative;
+}
+
+.sec-one-textBlk
+{
+    z-index: 1;
+}
+
+.sec-one-title
+{
+    font-size: 65px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    /* text-align: left; */
+}
+
+.sec-one-para
+{
+    padding: 15px 0 30px 0;
+    text-align: justify;
+}
+
+.reserve
+{
+    padding: 10px 50px;
+    background-color: #232323;
+    border: none;
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.sec-one-img
+{
+    width: 100%;
+    transform: scale(0.9);
+    margin: auto;
+}
+
+.scribbleDark, .scribbleLight
+{
+    position: absolute;
+}
+
+.scribbleDark 
+{
+    bottom: -187px;
+    right: -45px;
+    transform: scale(1, 0.7);
+}
+.scribbleLight {
+    left: -332px;
+    bottom: -405px;
+    transform: scale(0.9);
+    z-index: 0;
+}
