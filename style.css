@@ -219,3 +219,56 @@ header
     top: 43px;
     left: -95px;
 }
+
+#sec-two
+{
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.sec-two-main
+{
+    position: relative;
+}
+
+.tile-img
+{
+    width: 100%;
+}
+
+
+.tile-title
+{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tile-title::before
+{
+    content: '';
+    width: 20%;
+    border: 1px solid #232323;
+    margin: 25px 0 0 0;
+}
+
+.tile-para
+{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sec-two-scribbleDark1, .sec-two-scribbleDark2{
+    position: absolute;
+    transform: scale(0.8);
+}
+
+.sec-two-scribbleDark1 {
+    top: 116px;
+    right: -48px;
+}
+
+.sec-two-scribbleDark2 {
+    top: -186px;
+    left: -82px;
+}
