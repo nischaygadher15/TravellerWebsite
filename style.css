@@ -20,8 +20,6 @@ body
 
 .container
 {
-    /* width: 1166px; */
-    /* padding: 0 100px;  */
     padding: 0 20px;
     margin: 0 auto;
     width: 100%;
@@ -126,7 +124,7 @@ header
     font-weight: 400;
 }
 
-.nav-bar2
+.nav-bar2, .threeBarBtn
 {
     display: none;
 }
@@ -151,7 +149,7 @@ header
 
 .contact
 {
-    margin: -6px 0 0 0;
+    margin: 8px 0 0 0;
 }
 
 .threeBarBtn
@@ -350,7 +348,7 @@ header
 
 .sec-three-Airplane
 {
-    width: 6%;
+    width: 20%;
 }
 
 .sec-three-title
@@ -407,7 +405,6 @@ header
 .sec-three-img1
 {
     width: 100%;
-    /* transform: scale(0.9); */
 }
 
 .sec-three-subBottom
@@ -861,5 +858,81 @@ footer
     {
         font-size: 25px;
     }
+
+}
+
+@media (min-width: 1200px)
+{
+    .container
+    {
+        /* width: 1200px; */
+        padding: 0 100px; 
+    }
+
+    .nav-bar, .contact      
+    {
+        display: block;
+    }
+
+    .nav-bar2, .threeBarBtn
+    {
+        display: none;
+    }
+    .col-20
+    {
+        width: 20%;
+    }
+    
+    .col-25
+    {
+        width: 25%;
+    }
+    
+    .col-30
+    {
+        width: 30%;
+    }
+    
+    .col-33
+    {
+        width: 33%;
+    }
+    
+    .col-40
+    {
+        width: 40%;
+    }
+    
+    .col-50
+    {
+        width: 48%;
+    }
+    
+    .col-55
+    {
+        width: 55%;
+    }
+    .col-60
+    {
+        width: 60%;
+    }
+    .col-70
+    {
+        width: 70%;
+    }
+
+    .sec-three-Airplane
+    {
+        width: 6%;
+    }
+
+    #sec-seven {
+        height: auto;
+    }
+    .sec-seven-img 
+    {
+        height: 80vh;
+        width: 100%;
+    }   
 
 }
