@@ -167,7 +167,6 @@ header
     font-weight: 900;
 }
 
-
 .sec-one-upperPart {
     position: relative;
     overflow: hidden;
@@ -752,6 +751,11 @@ footer
     .sec-one-title
     {
         font-size: 50px;
+    }
+
+    .sec-one-upperPart
+    {
+        padding: 30px 0 55px 0;
     }
     .nav-bar2
     {
