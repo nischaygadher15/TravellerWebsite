@@ -376,16 +376,16 @@ header
     position: absolute;
 }
 
-.sec-three-scribbleLighest
+.sec-three-scribbleLighest 
 {
-    top: 112px;
-    right: -231px;
+    top: -91px;
+    right: -230px;
     transform: scale(0.8);
 }
 
 .sec-three-scribbleDark 
 {
-    top: 750px;
+    top: 500px;
     left: 103px;
     transform: scale(1);
 }
@@ -602,7 +602,7 @@ header
 .leftBtn 
 {
     top: 43%;
-    left: 2%;
+    left: 1%;
 }
 
 .rightBtn
@@ -869,6 +869,12 @@ footer
         padding: 0 100px; 
     }
 
+    .nav-bar, .contact, .scribbleDark, .scribbleLight, .sec-two-scribbleDark1, .sec-two-scribbleDark2, .sec-three-scribbleLighest, .sec-three-scribbleDark, .scribbleLight2, .scribbleLight3, .sec-six-scribbleDark1,
+    .sec-six-scribbleDark2, .leftBtn, .rightBtn,.footer-scribbleDark 
+    {
+        display: inline-block;
+    }
+
     .nav-bar, .contact      
     {
         display: block;
@@ -920,6 +926,15 @@ footer
     {
         width: 70%;
     }
+    #sec-one
+    {
+        padding: 100px 0;
+    }
+    .sec-one-img
+    {
+        transform: scale(1);
+        padding: 0;
+    }
 
     .sec-three-Airplane
     {
@@ -933,6 +948,10 @@ footer
     {
         height: 80vh;
         width: 100%;
-    }   
-
+    } 
+    .sec-one-upperPart {
+        position: relative;
+        overflow: hidden;
+        padding: 0px 0 100px 0;
+    }  
 }
