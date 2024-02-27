@@ -746,9 +746,13 @@ footer
 
     .container
     {
-        width: 100%;
+        min-width: 300px;
     }
 
+    .sec-one-title
+    {
+        font-size: 50px;
+    }
     .nav-bar2
     {
         display: inline-block;
@@ -774,6 +778,11 @@ footer
     {
         transform: scale(1);
         padding: 30px 0 0 0;
+    }
+
+    .sec-one-title
+    {
+        width: 100%;
     }
 
     .sec-two-cell
