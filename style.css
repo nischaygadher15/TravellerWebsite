@@ -891,12 +891,196 @@ footer
 
 }
 
+@media (min-width: 576px)
+{
+    .container
+    {
+        width: 560px;
+        /* padding: 0 50px;  */
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+
+    .nav-bar, .contact, .scribbleDark, .scribbleLight, .sec-two-scribbleDark1, .sec-two-scribbleDark2, .sec-three-scribbleLighest, .sec-three-scribbleDark, .scribbleLight2, .scribbleLight3, .sec-six-scribbleDark1,
+    .sec-six-scribbleDark2, .leftBtn, .rightBtn,.footer-scribbleDark 
+    {
+        display: none;
+    }
+    .nav-bar2, .threeBarBtn
+    {
+        display: block;
+    }
+    .col-20
+    {
+        width: 20%;
+    }
+    
+    .col-25
+    {
+        width: 50%;
+    }
+    
+    .col-30 
+    {
+        width: 45%;
+    }
+    
+    .col-33
+    {
+        width: 33%;
+    }
+    
+    .col-40
+    {
+        width: 100%;
+    }
+    
+    .col-50
+    {
+        width: 48%;
+    }
+    
+    .col-55
+    {
+        width: 100%;
+    }
+    .col-60
+    {
+        width: 50%;
+    }
+    .col-70
+    {
+        width: 100%;
+    }
+    #sec-one
+    {
+        padding: 100px 0;
+    }
+    .sec-one-img
+    {
+        transform: scale(1);
+        height: 100%;
+        padding: 0;
+    }
+    .sec-one-bottom-main 
+    {
+        width: 62%;
+    }
+    .sec-one-title 
+    {
+        font-size: 45px;
+    }
+    .sec-one-imgBlk
+    {
+        height: 100%;
+    }
+    .scribbleLight3 
+    {
+        top: 43px;
+        left: -189px;
+    }
+    .scribbleLight2 
+    {
+        bottom: 64px;
+        right: -121px;
+    }
+    .sec-three-Airplane
+    {
+        width: 15%;
+    }
+    .sec-three-scribbleLighest 
+    {
+        transform: scale(0.7);
+    }
+    .sec-three-scribbleDark 
+    {
+        top: 474px;
+        left: 10px;
+        transform: scale(0.8);
+    }
+    #sec-four {
+        padding: 100px 0;
+    }
+    .sec-four-main 
+    {
+        width: 560px;
+        margin: 0 auto;
+    }
+    .sec-four-right, .sec-four-left
+    {
+        width: 49%;
+    }
+    .sec-four-img 
+    {
+        height: 100%;
+        margin: 0;
+    }
+    .sec-four-title 
+    {
+        padding: 0;
+    }
+    .sec-four-para:nth-of-type(1) {
+        padding: 20px 0;
+    }
+    .sec-five-imgBlk, .sec-seven-formBlk 
+    {
+        width: 47%;
+    }
+    .sec-five-textCell 
+    {
+        padding: 20px 10px;
+    }
+    .sec-five-img {
+        margin: 0;
+    }
+    .sec-six-scribbleDark1 
+    {
+        left: -254px;
+    }
+    .sec-six-tileBlock .col-30 
+    {
+        width: 30%;
+    }
+    .sec-six-tileBlock
+    {
+        justify-content: space-evenly;
+    }
+    #sec-seven {
+        height: auto;
+    }
+    .sec-seven-formTitle 
+    {
+        font-size: 53px;
+    }
+    .sec-seven-img 
+    {
+        height: 80vh;
+        width: 100%;
+    } 
+    .sec-one-upperPart {
+        position: relative;
+        overflow: hidden;
+        padding: 0px 0 100px 0;
+    }  
+    .myLogo {
+        padding: 0;
+    }
+    .footer-ColLeft
+    {
+        width: 100%;
+    }
+    .col-25:nth-of-type(4)
+    {
+        padding-left:0;
+    }
+}
+
 @media (min-width: 768px)
 {
     .container
     {
         width: 750px;
-        /* padding: 0 50px;  */
+        padding: 0 20px; 
         margin: 0 auto;
     }
 
@@ -968,21 +1152,21 @@ footer
     }
     .sec-one-bottom-main 
     {
-        width: 45%;
+        width: 48%;
     }
     .scribbleLight3 
     {
         top: 43px;
-        left: -189px;
+        left: -271px;
     }
     .scribbleLight2 
     {
         bottom: 64px;
-        right: -121px;
+        right: -221px;
     }
     .sec-three-Airplane
     {
-        width: 6%;
+        width: 10%;
     }
     .sec-three-scribbleLighest 
     {
@@ -990,16 +1174,22 @@ footer
     }
     .sec-three-scribbleDark 
     {
-        top: 474px;
-        left: 10px;
-        transform: scale(0.8);
+        top: 504px;
+        left: -63px;
+        transform: scale(0.7);
     }
     #sec-four {
         padding: 100px 0 100px 100px;
     }
-    .sec-four-img {
+    .sec-four-img 
+    {
         height: 100%;
         margin: 0;
+    }
+    .sec-four-main 
+    {
+        width: 750px;
+        margin: 0 auto;
     }
     .sec-four-title 
     {
@@ -1026,13 +1216,17 @@ footer
     #sec-seven {
         height: auto;
     }
+    .sec-seven-main 
+    {
+        height: 84vh;
+    }
     .sec-seven-formTitle 
     {
-        font-size: 53px;
+        font-size: 50px;
     }
     .sec-seven-img 
     {
-        height: 80vh;
+        height: 84vh;
         width: 100%;
     } 
     .sec-one-upperPart {
@@ -1051,6 +1245,10 @@ footer
     {
         padding-left: 30px;
     }
+    .footer-scribbleDark
+    {
+        bottom: -10px;
+    }
 }
 
 @media (min-width: 992px)
@@ -1058,7 +1256,7 @@ footer
     .container
     {
         width: 990px;
-        /* padding: 0 100px;  */
+        padding: 0 50px; 
         margin: 0 auto;
     }
 
@@ -1130,7 +1328,7 @@ footer
     }
     .sec-one-bottom-main
     {
-        width: 35%;     
+        width: 40%;     
     }
     .sec-three-Airplane
     {
@@ -1139,17 +1337,46 @@ footer
     #sec-four {
         padding: 100px 0 100px 100px;
     }
+    .sec-four-main 
+    {
+        width: 990px;
+        margin: 0 auto;
+    }
     .sec-five-img {
         margin: 0;
     }
+    .sec-five-imgBlk
+    {
+        width: 37%;
+    }
+    .sec-six-scribbleDark1 
+    {
+        left: -183px;
+    }
+    .sec-six-scribbleDark2
+    {
+        right: -192px;
+    }
+    .sec-six-tileBlock .col-30 
+    {
+        width: 30%;
+    }
     #sec-seven {
         height: auto;
+    }
+    .sec-seven-main 
+    {
+        height: 80vh;
     }
     .sec-seven-img 
     {
         height: 80vh;
         width: 100%;
     } 
+    .sec-seven-formBlk
+    {
+        width: 37%;
+    }
     .sec-one-upperPart {
         position: relative;
         overflow: hidden;
@@ -1168,7 +1395,7 @@ footer
 {
     .container
     {
-        width: 1200px;
+        width: 100%;
         padding: 0 100px; 
     }
 
@@ -1247,7 +1474,11 @@ footer
     {
         width: 6%;
     }
-
+    .sec-four-main 
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
     #sec-seven {
         height: auto;
     }
